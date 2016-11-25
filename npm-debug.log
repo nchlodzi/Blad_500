@@ -1,0 +1,729 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-sass' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of C:\Users\Natalia\Documents\adAstra\pt_404\package.json
+5 warn package.json pokemony@1.0.0 No description
+6 warn package.json pokemony@1.0.0 No repository field.
+7 warn package.json pokemony@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp\package.json
+9 verbose readDependencies loading dependencies from C:\Users\Natalia\Documents\adAstra\pt_404\package.json
+10 silly cache add args [ 'gulp-sass', null ]
+11 verbose cache add spec gulp-sass
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'gulp-sass',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'gulp-sass',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed gulp-sass@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for gulp-sass
+15 info addNameTag [ 'gulp-sass', 'latest' ]
+16 silly mapToRegistry name gulp-sass
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'gulp-sass',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'gulp-sass',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+21 verbose addNameTag registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/gulp-sass
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 15:35:20
+25 verbose request id 23d42a97d1eba9ba
+26 verbose etag "4974BICKZ11FHIJHT5ECNEWCH"
+27 http request GET https://registry.npmjs.org/gulp-sass
+28 http 200 https://registry.npmjs.org/gulp-sass
+29 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+29 verbose headers   etag: '"D8QYWJ5GE4NN35AS06PP2ATX6"',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'content-encoding': 'gzip',
+29 verbose headers   'cache-control': 'max-age=300',
+29 verbose headers   'content-length': '9741',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Fri, 05 Aug 2016 13:35:21 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '80',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-fra1236-FRA',
+29 verbose headers   'x-cache': 'HIT',
+29 verbose headers   'x-cache-hits': '2',
+29 verbose headers   'x-timer': 'S1470404121.906163,VS0,VE0',
+29 verbose headers   vary: 'Accept-Encoding' }
+30 silly get cb [ 200,
+30 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+30 silly get     etag: '"D8QYWJ5GE4NN35AS06PP2ATX6"',
+30 silly get     'content-type': 'application/json',
+30 silly get     'content-encoding': 'gzip',
+30 silly get     'cache-control': 'max-age=300',
+30 silly get     'content-length': '9741',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Fri, 05 Aug 2016 13:35:21 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '80',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-fra1236-FRA',
+30 silly get     'x-cache': 'HIT',
+30 silly get     'x-cache-hits': '2',
+30 silly get     'x-timer': 'S1470404121.906163,VS0,VE0',
+30 silly get     vary: 'Accept-Encoding' } ]
+31 verbose get saving gulp-sass to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-sass\.cache.json
+32 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+33 silly addNameTag next cb for gulp-sass with tag latest
+34 silly addNamed gulp-sass@2.3.2
+35 verbose addNamed "2.3.2" is a plain semver version for gulp-sass
+36 silly cache afterAdd gulp-sass@2.3.2
+37 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package\package.json not in flight; writing
+38 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+39 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package\package.json written
+40 silly install resolved [ { name: 'gulp-sass',
+40 silly install resolved     version: '2.3.2',
+40 silly install resolved     description: 'Gulp plugin for sass',
+40 silly install resolved     main: 'index.js',
+40 silly install resolved     scripts: { test: 'mocha test' },
+40 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+40 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+40 silly install resolved     author: { name: 'David Manning' },
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+40 silly install resolved     dependencies:
+40 silly install resolved      { 'gulp-util': '^3.0',
+40 silly install resolved        'lodash.clonedeep': '^4.3.2',
+40 silly install resolved        'node-sass': '^3.4.2',
+40 silly install resolved        through2: '^2.0.0',
+40 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+40 silly install resolved     devDependencies:
+40 silly install resolved      { 'autoprefixer-core': '^5.2.1',
+40 silly install resolved        eslint: '^2.9.0',
+40 silly install resolved        globule: '^1.0.0',
+40 silly install resolved        gulp: '^3.8.11',
+40 silly install resolved        'gulp-postcss': '^5.1.10',
+40 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+40 silly install resolved        'gulp-tap': '^0.1.3',
+40 silly install resolved        mocha: '^2.2.1',
+40 silly install resolved        rimraf: '^2.4.3',
+40 silly install resolved        should: '^8.3.1' },
+40 silly install resolved     gitHead: '218560fc06f6e94151fb5ec3a4e0e047415c14ed',
+40 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+40 silly install resolved     _id: 'gulp-sass@2.3.2',
+40 silly install resolved     _shasum: '82b7ab90fe902cdc34c04f180d92f2c34902dd52',
+40 silly install resolved     _from: 'gulp-sass@latest',
+40 silly install resolved     _npmVersion: '3.8.3',
+40 silly install resolved     _nodeVersion: '5.10.1',
+40 silly install resolved     _npmUser: { name: 'xzyfer', email: 'xzyfer@gmail.com' },
+40 silly install resolved     dist:
+40 silly install resolved      { shasum: '82b7ab90fe902cdc34c04f180d92f2c34902dd52',
+40 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz' },
+40 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+40 silly install resolved     _npmOperationalInternal:
+40 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+40 silly install resolved        tmp: 'tmp/gulp-sass-2.3.2.tgz_1465988342649_0.716503701871261' },
+40 silly install resolved     directories: {},
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz',
+40 silly install resolved     readme: 'ERROR: No README data found!' } ]
+41 info install gulp-sass@2.3.2 into C:\Users\Natalia\Documents\adAstra\pt_404
+42 info installOne gulp-sass@2.3.2
+43 verbose installOne of gulp-sass to C:\Users\Natalia\Documents\adAstra\pt_404 not in flight; installing
+44 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+45 verbose lock using C:\Users\Natalia\AppData\Roaming\npm-cache\_locks\gulp-sass-ac498de714060f85.lock for C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass
+46 silly install write writing gulp-sass 2.3.2 to C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass
+47 verbose unbuild node_modules\gulp-sass
+48 silly gentlyRm C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass is being purged from base C:\Users\Natalia\Documents\adAstra\pt_404
+49 verbose gentlyRm don't care about contents; nuking C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass
+50 verbose tar unpack C:\Users\Natalia\AppData\Roaming\npm-cache\gulp-sass\2.3.2\package.tgz
+51 verbose tar unpacking to C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass
+52 silly gentlyRm C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass is being purged
+53 verbose gentlyRm don't care about contents; nuking C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass
+54 silly gunzTarPerm modes [ '777', '666' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+63 silly gunzTarPerm extractEntry index.js
+64 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+65 silly gunzTarPerm extractEntry test.js
+66 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+67 silly gunzTarPerm extractEntry CONTRIBUTING.md
+68 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+69 silly gunzTarPerm extractEntry .eslintrc
+70 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+71 silly gunzTarPerm extractEntry dest/test.css
+72 silly gunzTarPerm modified mode [ 'dest/test.css', 420, 438 ]
+73 silly gunzTarPerm extractEntry .editorconfig
+74 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+75 silly gunzTarPerm extractEntry .travis.yml
+76 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+77 silly gunzTarPerm extractEntry CHANGELOG.md
+78 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+79 silly gunzTarPerm extractEntry test.scss
+80 silly gunzTarPerm modified mode [ 'test.scss', 420, 438 ]
+81 verbose write writing to C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass\package.json
+82 info preinstall gulp-sass@2.3.2
+83 verbose readDependencies loading dependencies from C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass\package.json
+84 silly prepareForInstallMany adding gulp-util@^3.0 from gulp-sass dependencies
+85 silly prepareForInstallMany adding lodash.clonedeep@^4.3.2 from gulp-sass dependencies
+86 silly prepareForInstallMany adding node-sass@^3.4.2 from gulp-sass dependencies
+87 silly prepareForInstallMany adding through2@^2.0.0 from gulp-sass dependencies
+88 silly prepareForInstallMany adding vinyl-sourcemaps-apply@^0.2.0 from gulp-sass dependencies
+89 verbose readDependencies loading dependencies from C:\Users\Natalia\Documents\adAstra\pt_404\node_modules\gulp-sass\package.json
+90 silly cache add args [ 'gulp-util@^3.0', null ]
+91 verbose cache add spec gulp-util@^3.0
+92 silly cache add args [ 'lodash.clonedeep@^4.3.2', null ]
+93 verbose cache add spec lodash.clonedeep@^4.3.2
+94 silly cache add parsed spec Result {
+94 silly cache add   raw: 'gulp-util@^3.0',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'gulp-util',
+94 silly cache add   rawSpec: '^3.0',
+94 silly cache add   spec: '>=3.0.0 <4.0.0',
+94 silly cache add   type: 'range' }
+95 silly addNamed gulp-util@>=3.0.0 <4.0.0
+96 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for gulp-util
+97 silly addNameRange { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: false }
+98 silly mapToRegistry name gulp-util
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'gulp-util',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   name: 'gulp-util',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+103 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+104 silly cache add parsed spec Result {
+104 silly cache add   raw: 'lodash.clonedeep@^4.3.2',
+104 silly cache add   scope: null,
+104 silly cache add   name: 'lodash.clonedeep',
+104 silly cache add   rawSpec: '^4.3.2',
+104 silly cache add   spec: '>=4.3.2 <5.0.0',
+104 silly cache add   type: 'range' }
+105 silly addNamed lodash.clonedeep@>=4.3.2 <5.0.0
+106 verbose addNamed ">=4.3.2 <5.0.0" is a valid semver range for lodash.clonedeep
+107 silly addNameRange { name: 'lodash.clonedeep',
+107 silly addNameRange   range: '>=4.3.2 <5.0.0',
+107 silly addNameRange   hasData: false }
+108 silly mapToRegistry name lodash.clonedeep
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'lodash.clonedeep',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   name: 'lodash.clonedeep',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npmjs.org/lodash.clonedeep
+113 verbose addNameRange registry:https://registry.npmjs.org/lodash.clonedeep not in flight; fetching
+114 silly cache add args [ 'node-sass@^3.4.2', null ]
+115 verbose cache add spec node-sass@^3.4.2
+116 silly cache add parsed spec Result {
+116 silly cache add   raw: 'node-sass@^3.4.2',
+116 silly cache add   scope: null,
+116 silly cache add   name: 'node-sass',
+116 silly cache add   rawSpec: '^3.4.2',
+116 silly cache add   spec: '>=3.4.2 <4.0.0',
+116 silly cache add   type: 'range' }
+117 silly addNamed node-sass@>=3.4.2 <4.0.0
+118 verbose addNamed ">=3.4.2 <4.0.0" is a valid semver range for node-sass
+119 silly addNameRange { name: 'node-sass', range: '>=3.4.2 <4.0.0', hasData: false }
+120 silly mapToRegistry name node-sass
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry data Result {
+123 silly mapToRegistry   raw: 'node-sass',
+123 silly mapToRegistry   scope: null,
+123 silly mapToRegistry   name: 'node-sass',
+123 silly mapToRegistry   rawSpec: '',
+123 silly mapToRegistry   spec: 'latest',
+123 silly mapToRegistry   type: 'tag' }
+124 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+125 verbose addNameRange registry:https://registry.npmjs.org/node-sass not in flight; fetching
+126 silly cache add args [ 'through2@^2.0.0', null ]
+127 verbose cache add spec through2@^2.0.0
+128 silly cache add parsed spec Result {
+128 silly cache add   raw: 'through2@^2.0.0',
+128 silly cache add   scope: null,
+128 silly cache add   name: 'through2',
+128 silly cache add   rawSpec: '^2.0.0',
+128 silly cache add   spec: '>=2.0.0 <3.0.0',
+128 silly cache add   type: 'range' }
+129 silly addNamed through2@>=2.0.0 <3.0.0
+130 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for through2
+131 silly addNameRange { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: false }
+132 silly mapToRegistry name through2
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry data Result {
+135 silly mapToRegistry   raw: 'through2',
+135 silly mapToRegistry   scope: null,
+135 silly mapToRegistry   name: 'through2',
+135 silly mapToRegistry   rawSpec: '',
+135 silly mapToRegistry   spec: 'latest',
+135 silly mapToRegistry   type: 'tag' }
+136 silly mapToRegistry uri https://registry.npmjs.org/through2
+137 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+138 silly cache add args [ 'vinyl-sourcemaps-apply@^0.2.0', null ]
+139 verbose cache add spec vinyl-sourcemaps-apply@^0.2.0
+140 silly cache add parsed spec Result {
+140 silly cache add   raw: 'vinyl-sourcemaps-apply@^0.2.0',
+140 silly cache add   scope: null,
+140 silly cache add   name: 'vinyl-sourcemaps-apply',
+140 silly cache add   rawSpec: '^0.2.0',
+140 silly cache add   spec: '>=0.2.0 <0.3.0',
+140 silly cache add   type: 'range' }
+141 silly addNamed vinyl-sourcemaps-apply@>=0.2.0 <0.3.0
+142 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for vinyl-sourcemaps-apply
+143 silly addNameRange { name: 'vinyl-sourcemaps-apply',
+143 silly addNameRange   range: '>=0.2.0 <0.3.0',
+143 silly addNameRange   hasData: false }
+144 silly mapToRegistry name vinyl-sourcemaps-apply
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry data Result {
+147 silly mapToRegistry   raw: 'vinyl-sourcemaps-apply',
+147 silly mapToRegistry   scope: null,
+147 silly mapToRegistry   name: 'vinyl-sourcemaps-apply',
+147 silly mapToRegistry   rawSpec: '',
+147 silly mapToRegistry   spec: 'latest',
+147 silly mapToRegistry   type: 'tag' }
+148 silly mapToRegistry uri https://registry.npmjs.org/vinyl-sourcemaps-apply
+149 verbose addNameRange registry:https://registry.npmjs.org/vinyl-sourcemaps-apply not in flight; fetching
+150 verbose request uri https://registry.npmjs.org/gulp-util
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 15:35:20
+153 verbose etag "6LQ39XX9KH4CDA2FDQPCAFTV1"
+154 http request GET https://registry.npmjs.org/gulp-util
+155 verbose request uri https://registry.npmjs.org/through2
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 15:35:20
+158 verbose etag "SQPGSNN73ZMJVKQ0O4T452N1"
+159 http request GET https://registry.npmjs.org/through2
+160 verbose request uri https://registry.npmjs.org/vinyl-sourcemaps-apply
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 15:35:20
+163 verbose etag "2PZ6TMP6C2ZWEB6Z7ERJH323F"
+164 http request GET https://registry.npmjs.org/vinyl-sourcemaps-apply
+165 verbose request uri https://registry.npmjs.org/lodash.clonedeep
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 15:35:20
+168 verbose etag "2XQM1O0MW2L9ZANJKEAXJK1DF"
+169 http request GET https://registry.npmjs.org/lodash.clonedeep
+170 http 304 https://registry.npmjs.org/gulp-util
+171 verbose headers { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+171 verbose headers   via: '1.1 varnish',
+171 verbose headers   'cache-control': 'max-age=300',
+171 verbose headers   etag: '"6LQ39XX9KH4CDA2FDQPCAFTV1"',
+171 verbose headers   age: '182',
+171 verbose headers   connection: 'keep-alive',
+171 verbose headers   'x-served-by': 'cache-fra1236-FRA',
+171 verbose headers   'x-cache': 'HIT',
+171 verbose headers   'x-cache-hits': '8',
+171 verbose headers   'x-timer': 'S1470404122.099862,VS0,VE0',
+171 verbose headers   vary: 'Accept-Encoding' }
+172 silly get cb [ 304,
+172 silly get   { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+172 silly get     via: '1.1 varnish',
+172 silly get     'cache-control': 'max-age=300',
+172 silly get     etag: '"6LQ39XX9KH4CDA2FDQPCAFTV1"',
+172 silly get     age: '182',
+172 silly get     connection: 'keep-alive',
+172 silly get     'x-served-by': 'cache-fra1236-FRA',
+172 silly get     'x-cache': 'HIT',
+172 silly get     'x-cache-hits': '8',
+172 silly get     'x-timer': 'S1470404122.099862,VS0,VE0',
+172 silly get     vary: 'Accept-Encoding' } ]
+173 verbose etag https://registry.npmjs.org/gulp-util from cache
+174 verbose get saving gulp-util to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-util\.cache.json
+175 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+176 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: true }
+177 silly addNameRange versions [ 'gulp-util',
+177 silly addNameRange   [ '0.0.1',
+177 silly addNameRange     '1.0.0',
+177 silly addNameRange     '1.1.0',
+177 silly addNameRange     '1.1.1',
+177 silly addNameRange     '1.2.0',
+177 silly addNameRange     '1.3.0',
+177 silly addNameRange     '2.0.0',
+177 silly addNameRange     '2.1.1',
+177 silly addNameRange     '2.1.2',
+177 silly addNameRange     '2.1.3',
+177 silly addNameRange     '2.1.4',
+177 silly addNameRange     '2.2.0',
+177 silly addNameRange     '2.2.1',
+177 silly addNameRange     '2.2.2',
+177 silly addNameRange     '2.2.3',
+177 silly addNameRange     '2.2.5',
+177 silly addNameRange     '2.2.6',
+177 silly addNameRange     '2.2.7',
+177 silly addNameRange     '2.2.8',
+177 silly addNameRange     '2.2.9',
+177 silly addNameRange     '2.2.10',
+177 silly addNameRange     '2.2.11',
+177 silly addNameRange     '2.2.12',
+177 silly addNameRange     '2.2.13',
+177 silly addNameRange     '2.2.14',
+177 silly addNameRange     '2.2.15',
+177 silly addNameRange     '2.2.16',
+177 silly addNameRange     '2.2.17',
+177 silly addNameRange     '2.2.18',
+177 silly addNameRange     '2.2.19',
+177 silly addNameRange     '2.2.20',
+177 silly addNameRange     '3.0.0',
+177 silly addNameRange     '3.0.1',
+177 silly addNameRange     '3.0.2',
+177 silly addNameRange     '3.0.3',
+177 silly addNameRange     '3.0.4',
+177 silly addNameRange     '3.0.5',
+177 silly addNameRange     '3.0.6',
+177 silly addNameRange     '3.0.7' ] ]
+178 silly addNamed gulp-util@3.0.7
+179 verbose addNamed "3.0.7" is a plain semver version for gulp-util
+180 verbose request uri https://registry.npmjs.org/node-sass
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 15:35:20
+183 verbose etag "CXBMKXUX2QBXTB3DROVNSRBMK"
+184 http request GET https://registry.npmjs.org/node-sass
+185 silly cache afterAdd gulp-util@3.0.7
+186 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\gulp-util\3.0.7\package\package.json not in flight; writing
+187 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+188 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\gulp-util\3.0.7\package\package.json written
+189 http 304 https://registry.npmjs.org/node-sass
+190 verbose headers { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   etag: '"CXBMKXUX2QBXTB3DROVNSRBMK"',
+190 verbose headers   age: '49',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-fra1236-FRA',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '1',
+190 verbose headers   'x-timer': 'S1470404122.137606,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding' }
+191 silly get cb [ 304,
+191 silly get   { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     etag: '"CXBMKXUX2QBXTB3DROVNSRBMK"',
+191 silly get     age: '49',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-fra1236-FRA',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '1',
+191 silly get     'x-timer': 'S1470404122.137606,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding' } ]
+192 verbose etag https://registry.npmjs.org/node-sass from cache
+193 verbose get saving node-sass to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\node-sass\.cache.json
+194 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+195 silly addNameRange number 2 { name: 'node-sass', range: '>=3.4.2 <4.0.0', hasData: true }
+196 silly addNameRange versions [ 'node-sass',
+196 silly addNameRange   [ '0.2.0',
+196 silly addNameRange     '0.2.1',
+196 silly addNameRange     '0.2.2',
+196 silly addNameRange     '0.2.3',
+196 silly addNameRange     '0.2.4',
+196 silly addNameRange     '0.2.5',
+196 silly addNameRange     '0.2.6',
+196 silly addNameRange     '0.3.0',
+196 silly addNameRange     '0.4.0',
+196 silly addNameRange     '0.4.1',
+196 silly addNameRange     '0.4.2',
+196 silly addNameRange     '0.4.3',
+196 silly addNameRange     '0.4.4',
+196 silly addNameRange     '0.5.0',
+196 silly addNameRange     '0.5.1',
+196 silly addNameRange     '0.5.2',
+196 silly addNameRange     '0.5.3',
+196 silly addNameRange     '0.5.4',
+196 silly addNameRange     '0.6.0',
+196 silly addNameRange     '0.6.1',
+196 silly addNameRange     '0.6.2',
+196 silly addNameRange     '0.6.3',
+196 silly addNameRange     '0.6.4',
+196 silly addNameRange     '0.6.5',
+196 silly addNameRange     '0.6.6',
+196 silly addNameRange     '0.6.7',
+196 silly addNameRange     '0.7.0-alpha',
+196 silly addNameRange     '0.7.0',
+196 silly addNameRange     '0.8.0',
+196 silly addNameRange     '0.8.1',
+196 silly addNameRange     '0.8.2',
+196 silly addNameRange     '0.8.3',
+196 silly addNameRange     '0.8.4',
+196 silly addNameRange     '0.8.5',
+196 silly addNameRange     '0.8.6',
+196 silly addNameRange     '0.9.0',
+196 silly addNameRange     '0.9.1',
+196 silly addNameRange     '0.9.2',
+196 silly addNameRange     '0.9.3',
+196 silly addNameRange     '0.9.4-rc1',
+196 silly addNameRange     '0.9.4',
+196 silly addNameRange     '0.9.5-rc1',
+196 silly addNameRange     '0.9.5',
+196 silly addNameRange     '0.9.6',
+196 silly addNameRange     '1.0.0',
+196 silly addNameRange     '1.0.1',
+196 silly addNameRange     '1.0.2-alpha',
+196 silly addNameRange     '1.0.2',
+196 silly addNameRange     '1.0.3',
+196 silly addNameRange     '1.1.0',
+196 silly addNameRange     '1.1.1',
+196 silly addNameRange     '1.1.2',
+196 silly addNameRange     '1.1.3',
+196 silly addNameRange     '1.1.4',
+196 silly addNameRange     '1.2.0',
+196 silly addNameRange     '1.2.1',
+196 silly addNameRange     '1.2.2',
+196 silly addNameRange     '1.2.3',
+196 silly addNameRange     '2.0.0-beta',
+196 silly addNameRange     '2.0.0',
+196 silly addNameRange     '2.0.1',
+196 silly addNameRange     '3.0.0-alpha.0',
+196 silly addNameRange     '3.0.0-beta.2',
+196 silly addNameRange     '3.0.0-beta.3',
+196 silly addNameRange     '3.0.0-beta.4',
+196 silly addNameRange     '2.1.0',
+196 silly addNameRange     '2.1.1',
+196 silly addNameRange     '3.0.0-beta.5',
+196 silly addNameRange     '3.0.0-beta.7',
+196 silly addNameRange     '3.0.0',
+196 silly addNameRange     '3.1.0',
+196 silly addNameRange     '3.1.1',
+196 silly addNameRange     '3.1.2',
+196 silly addNameRange     '3.2.0',
+196 silly addNameRange     '3.3.0',
+196 silly addNameRange     '3.3.1',
+196 silly addNameRange     '3.3.2',
+196 silly addNameRange     '3.3.3',
+196 silly addNameRange     '3.4.0-beta1',
+196 silly addNameRange     '3.4.0-beta.2',
+196 silly addNameRange     '3.4.0',
+196 silly addNameRange     '3.4.1',
+196 silly addNameRange     '3.4.2',
+196 silly addNameRange     '3.5.0-beta.1',
+196 silly addNameRange     '3.5.1',
+196 silly addNameRange     '3.5.2',
+196 silly addNameRange     '3.5.3',
+196 silly addNameRange     '3.6.0',
+196 silly addNameRange     '3.7.0',
+196 silly addNameRange     '3.8.0' ] ]
+197 silly addNamed node-sass@3.8.0
+198 verbose addNamed "3.8.0" is a plain semver version for node-sass
+199 silly cache afterAdd node-sass@3.8.0
+200 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\node-sass\3.8.0\package\package.json not in flight; writing
+201 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+202 http 304 https://registry.npmjs.org/vinyl-sourcemaps-apply
+203 verbose headers { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+203 verbose headers   via: '1.1 varnish',
+203 verbose headers   'cache-control': 'max-age=300',
+203 verbose headers   etag: '"2PZ6TMP6C2ZWEB6Z7ERJH323F"',
+203 verbose headers   age: '273',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+203 verbose headers   'x-cache': 'HIT',
+203 verbose headers   'x-cache-hits': '418',
+203 verbose headers   'x-timer': 'S1470404122.154406,VS0,VE0',
+203 verbose headers   vary: 'Accept-Encoding' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+204 silly get     via: '1.1 varnish',
+204 silly get     'cache-control': 'max-age=300',
+204 silly get     etag: '"2PZ6TMP6C2ZWEB6Z7ERJH323F"',
+204 silly get     age: '273',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-served-by': 'cache-fra1237-FRA',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '418',
+204 silly get     'x-timer': 'S1470404122.154406,VS0,VE0',
+204 silly get     vary: 'Accept-Encoding' } ]
+205 verbose etag https://registry.npmjs.org/vinyl-sourcemaps-apply from cache
+206 verbose get saving vinyl-sourcemaps-apply to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\vinyl-sourcemaps-apply\.cache.json
+207 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+208 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\node-sass\3.8.0\package\package.json written
+209 http 304 https://registry.npmjs.org/through2
+210 verbose headers { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+210 verbose headers   via: '1.1 varnish',
+210 verbose headers   'cache-control': 'max-age=300',
+210 verbose headers   etag: '"SQPGSNN73ZMJVKQ0O4T452N1"',
+210 verbose headers   age: '65',
+210 verbose headers   connection: 'keep-alive',
+210 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+210 verbose headers   'x-cache': 'HIT',
+210 verbose headers   'x-cache-hits': '10',
+210 verbose headers   'x-timer': 'S1470404122.156703,VS0,VE0',
+210 verbose headers   vary: 'Accept-Encoding' }
+211 silly get cb [ 304,
+211 silly get   { date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+211 silly get     via: '1.1 varnish',
+211 silly get     'cache-control': 'max-age=300',
+211 silly get     etag: '"SQPGSNN73ZMJVKQ0O4T452N1"',
+211 silly get     age: '65',
+211 silly get     connection: 'keep-alive',
+211 silly get     'x-served-by': 'cache-fra1225-FRA',
+211 silly get     'x-cache': 'HIT',
+211 silly get     'x-cache-hits': '10',
+211 silly get     'x-timer': 'S1470404122.156703,VS0,VE0',
+211 silly get     vary: 'Accept-Encoding' } ]
+212 verbose etag https://registry.npmjs.org/through2 from cache
+213 verbose get saving through2 to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\through2\.cache.json
+214 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+215 silly addNameRange number 2 { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: true }
+216 silly addNameRange versions [ 'through2',
+216 silly addNameRange   [ '0.0.0',
+216 silly addNameRange     '0.0.1',
+216 silly addNameRange     '0.0.2',
+216 silly addNameRange     '0.0.3',
+216 silly addNameRange     '0.0.4',
+216 silly addNameRange     '0.0.5',
+216 silly addNameRange     '0.1.0',
+216 silly addNameRange     '0.2.0',
+216 silly addNameRange     '0.2.1',
+216 silly addNameRange     '0.2.2',
+216 silly addNameRange     '0.2.3',
+216 silly addNameRange     '0.3.0',
+216 silly addNameRange     '0.4.0',
+216 silly addNameRange     '0.4.1',
+216 silly addNameRange     '1.0.0',
+216 silly addNameRange     '0.4.2',
+216 silly addNameRange     '0.5.0',
+216 silly addNameRange     '0.5.1',
+216 silly addNameRange     '0.6.0',
+216 silly addNameRange     '1.1.0',
+216 silly addNameRange     '0.6.1',
+216 silly addNameRange     '1.1.1',
+216 silly addNameRange     '0.6.2',
+216 silly addNameRange     '0.6.3',
+216 silly addNameRange     '0.6.4',
+216 silly addNameRange     '0.6.5',
+216 silly addNameRange     '2.0.0',
+216 silly addNameRange     '2.0.1' ] ]
+217 silly addNamed through2@2.0.1
+218 verbose addNamed "2.0.1" is a plain semver version for through2
+219 silly cache afterAdd through2@2.0.1
+220 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\through2\2.0.1\package\package.json not in flight; writing
+221 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+222 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\through2\2.0.1\package\package.json written
+223 silly addNameRange number 2 { name: 'vinyl-sourcemaps-apply',
+223 silly addNameRange   range: '>=0.2.0 <0.3.0',
+223 silly addNameRange   hasData: true }
+224 silly addNameRange versions [ 'vinyl-sourcemaps-apply',
+224 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0', '0.2.1' ] ]
+225 silly addNamed vinyl-sourcemaps-apply@0.2.1
+226 verbose addNamed "0.2.1" is a plain semver version for vinyl-sourcemaps-apply
+227 http 200 https://registry.npmjs.org/lodash.clonedeep
+228 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+228 verbose headers   etag: '"KD40JQFKGY4UE8PKTEZ8COHJ"',
+228 verbose headers   'content-type': 'application/json',
+228 verbose headers   'content-encoding': 'gzip',
+228 verbose headers   'cache-control': 'max-age=300',
+228 verbose headers   'content-length': '4254',
+228 verbose headers   'accept-ranges': 'bytes',
+228 verbose headers   date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+228 verbose headers   via: '1.1 varnish',
+228 verbose headers   age: '205',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+228 verbose headers   'x-cache': 'HIT',
+228 verbose headers   'x-cache-hits': '11',
+228 verbose headers   'x-timer': 'S1470404122.191237,VS0,VE0',
+228 verbose headers   vary: 'Accept-Encoding' }
+229 silly get cb [ 200,
+229 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+229 silly get     etag: '"KD40JQFKGY4UE8PKTEZ8COHJ"',
+229 silly get     'content-type': 'application/json',
+229 silly get     'content-encoding': 'gzip',
+229 silly get     'cache-control': 'max-age=300',
+229 silly get     'content-length': '4254',
+229 silly get     'accept-ranges': 'bytes',
+229 silly get     date: 'Fri, 05 Aug 2016 13:35:22 GMT',
+229 silly get     via: '1.1 varnish',
+229 silly get     age: '205',
+229 silly get     connection: 'keep-alive',
+229 silly get     'x-served-by': 'cache-fra1232-FRA',
+229 silly get     'x-cache': 'HIT',
+229 silly get     'x-cache-hits': '11',
+229 silly get     'x-timer': 'S1470404122.191237,VS0,VE0',
+229 silly get     vary: 'Accept-Encoding' } ]
+230 verbose get saving lodash.clonedeep to C:\Users\Natalia\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.clonedeep\.cache.json
+231 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+232 silly addNameRange number 2 { name: 'lodash.clonedeep',
+232 silly addNameRange   range: '>=4.3.2 <5.0.0',
+232 silly addNameRange   hasData: true }
+233 silly addNameRange versions [ 'lodash.clonedeep',
+233 silly addNameRange   [ '2.0.0',
+233 silly addNameRange     '2.1.0',
+233 silly addNameRange     '2.2.0',
+233 silly addNameRange     '2.2.1',
+233 silly addNameRange     '2.3.0',
+233 silly addNameRange     '2.4.0',
+233 silly addNameRange     '2.4.1',
+233 silly addNameRange     '3.0.0',
+233 silly addNameRange     '3.0.1',
+233 silly addNameRange     '3.0.2',
+233 silly addNameRange     '4.0.0',
+233 silly addNameRange     '4.0.1',
+233 silly addNameRange     '4.0.2',
+233 silly addNameRange     '4.0.3',
+233 silly addNameRange     '4.0.4',
+233 silly addNameRange     '4.1.0',
+233 silly addNameRange     '4.1.1',
+233 silly addNameRange     '4.2.0',
+233 silly addNameRange     '4.3.0',
+233 silly addNameRange     '4.3.1',
+233 silly addNameRange     '4.3.2',
+233 silly addNameRange     '4.4.0',
+233 silly addNameRange     '4.4.1' ] ]
+234 silly addNamed lodash.clonedeep@4.4.1
+235 verbose addNamed "4.4.1" is a plain semver version for lodash.clonedeep
+236 silly mapToRegistry name lodash.clonedeep
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'lodash.clonedeep',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   name: 'lodash.clonedeep',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npmjs.org/lodash.clonedeep
+241 verbose addRemoteTarball https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.4.1.tgz not in flight; adding
+242 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.4.1.tgz',
+242 verbose addRemoteTarball   '8adb0621f7e69682af808fe8dbccaa2ba7a8b3ea' ]
+243 info retry fetch attempt 1 at 15:35:20
+244 info attempt registry request try #1 at 15:35:20
+245 http fetch GET https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.4.1.tgz
+246 silly cache afterAdd vinyl-sourcemaps-apply@0.2.1
+247 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\vinyl-sourcemaps-apply\0.2.1\package\package.json not in flight; writing
+248 verbose correctMkdir C:\Users\Natalia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+249 verbose afterAdd C:\Users\Natalia\AppData\Roaming\npm-cache\vinyl-sourcemaps-apply\0.2.1\package\package.json written
+250 http fetch 200 https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.4.1.tgz
+251 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\Natalia\AppData\Local\Temp\npm-4028-f74209af\registry.npmjs.org\lodash.clonedeep\-\lodash.clonedeep-4.4.1.tgz.3650806107' -> 'C:\Users\Natalia\AppData\Local\Temp\npm-4028-f74209af\registry.npmjs.org\lodash.clonedeep\-\lodash.clonedeep-4.4.1.tgz'
+252 verbose stack TypeError: tarball.destroy is not a function
+252 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-remote-tarball.js:85:15)
+252 verbose stack     at emitOne (events.js:82:20)
+252 verbose stack     at WriteStreamAtomic.emit (events.js:169:7)
+252 verbose stack     at WriteStreamAtomic.emit (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+252 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+252 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+253 verbose cwd C:\Users\Natalia\Documents\adAstra\pt_404
+254 error Windows_NT 6.1.7601
+255 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass"
+256 error node v4.4.5
+257 error npm  v2.15.5
+258 error tarball.destroy is not a function
+259 error If you need help, you may report this error at:
+259 error     <https://github.com/npm/npm/issues>
+260 verbose exit [ 1, true ]

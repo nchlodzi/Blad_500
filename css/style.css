@@ -1,0 +1,210 @@
+.popUpContainer {
+  max-width: 1100px;
+  margin: 5% auto;
+}
+
+.popUp500 {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.popUp500Bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 248, 255, 0.9);
+}
+
+.popUp500Main {
+  background-image: url("../images/chmura.png");
+  width: 100%;
+  background-size: 100% auto;
+  height: 0;
+  padding-bottom: 65.19097%;
+  display: block;
+  background-repeat: no-repeat;
+  position: fixed;
+  margin: 8% auto;
+  z-index: 100;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+@-moz-document url-prefix() {
+  .popUp500Main {
+    margin: 4% auto;
+  }
+}
+
+.blad500 {
+  font-family: Roboto;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 15%;
+  margin-top: 17.5%;
+  margin-bottom: 1.2%;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+.blad500 span {
+  color: #faa74a;
+  letter-spacing: 0px;
+}
+
+@media (max-width: 778px) {
+  .blad500 {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 660px) {
+  .blad500 {
+    margin-top: 13%;
+  }
+}
+
+@media (max-width: 630px) {
+  .blad500 {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 580px) {
+  .blad500 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 465px) {
+  .blad500 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 425px) {
+  .blad500 {
+    font-size: 1.7em;
+    margin-top: 11%;
+  }
+}
+
+@media (max-width: 380px) {
+  .blad500 {
+    font-size: 1.6em;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 350px) {
+  .blad500 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 340px) {
+  .blad500 {
+    margin-left: 12%;
+  }
+}
+
+.text500 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 0.75em;
+  margin-left: 18%;
+  width: 50%;
+  margin-bottom: 3%;
+  line-height: 1.2em;
+}
+
+@media (max-width: 700px) {
+  .text500 {
+    font-size: 0.65em;
+  }
+}
+
+@media (max-width: 515px) {
+  .text500 {
+    width: 65%;
+  }
+}
+
+@media (max-width: 465px) {
+  .text500 {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 350px) {
+  .text500 {
+    font-size: 0.58em;
+  }
+}
+
+@media (max-width: 340px) {
+  .text500 {
+    margin-left: 15%;
+    width: 71%;
+  }
+}
+
+.button500 {
+  background-color: #fff;
+  padding: 14px 15px;
+  color: #007ae7;
+  margin-left: 15%;
+  font-family: Roboto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  border-radius: 3px;
+  border: none;
+  letter-spacing: -0.5px;
+}
+
+.button500 img {
+  padding-bottom: 5px;
+  margin-left: 5px;
+  padding-right: 2px;
+}
+
+@media (max-width: 630px) {
+  .button500 {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 505px) {
+  .button500 {
+    font-size: 0.6em;
+    padding: 10px 11px;
+    letter-spacing: 0px;
+  }
+  .button500 img {
+    padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 380px) {
+  .button500 {
+    font-size: 0.55em;
+  }
+}
+
+@media (max-width: 350px) {
+  .button500 {
+    padding: 8px 9px;
+  }
+}
+
+@media (max-width: 340px) {
+  .button500 {
+    margin-left: 12%;
+  }
+}
